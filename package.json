@@ -1,7 +1,7 @@
 {
   "name": "liquidjs-loader",
   "version": "1.0.0",
-  "description": "Liquidjs engine for webpack loader",
+  "description": "Webpack loader for liquidjs engine",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "dependencies": {
     "liquidjs": "^9.16.1",
     "loader-utils": "^2.0.0"
-  }
+  },
+  "homepage": "https://github.com/shanmuganathan-balaraman/liquidjs-loader",
+  "bugs": "https://github.com/shanmuganathan-balaraman/liquidjs-loader/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shanmuganathan-balaraman/liquidjs-loader"
+  },
+  "keywords": [
+		"liquidjs",
+		"template",
+		"loader",
+		"webpack"
+	]
 }
