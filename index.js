@@ -3,7 +3,6 @@ const { Liquid } = require('liquidjs');
 const path = require('path');
 
 module.exports = function(source, map) {
-  console.log("this", this.context);
   const options = loaderUtils.getOptions(this) || {};
   const data = options.data || {};
   const liquidOptions = Object.assign({}, options);
