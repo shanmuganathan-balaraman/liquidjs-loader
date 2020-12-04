@@ -1,0 +1,15 @@
+{
+  "name": "liquidjs-loader",
+  "version": "1.0.0",
+  "description": "Liquidjs engine for webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "liquidjs": "^9.16.1",
+    "loader-utils": "^2.0.0"
+  }
+}
